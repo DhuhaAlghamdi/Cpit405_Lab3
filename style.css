@@ -1,0 +1,57 @@
+/* ================= PART 1 ================= */
+
+.image-preview {
+    width: 300px;
+    padding: 20px;
+    border: 2px solid gray;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.image-preview img {
+    width: 200px;
+    border-radius: 15px;
+    border: 3px solid #006c35;
+}
+
+
+/* ================= PART 2 ================= */
+
+p > span { 
+    color: red; 
+}
+
+#header span { 
+    color: pink; 
+}
+
+span { 
+    color: green; 
+}
+
+#header *:last-child { 
+    color: orange; 
+}
+
+#header span:first-child:hover { 
+    color: blue; 
+}
+
+
+/* Table Styling */
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #ddd;
+}
