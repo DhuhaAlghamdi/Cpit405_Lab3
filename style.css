@@ -1,20 +1,19 @@
 /* ================= PART 1 ================= */
 
 .image-preview {
-    width: 300px;
-    padding: 20px;
-    border: 2px solid gray;
-    background-color: #f2f2f2;
-    text-align: center;
-    margin: 20px auto;
+  text-align: center;
+  margin-top: 40px;
 }
 
 .image-preview img {
-    width: 200px;
-    border-radius: 15px;
-    border: 3px solid #006c35;
-}
+  border-style: solid;
+  border-width: 30px;
 
+  border-top-color: skyblue;
+  border-right-color: lightpink;
+  border-bottom-color: lightgreen;
+  border-left-color: #ffefd5;
+}
 
 /* ================= PART 2 ================= */
 
@@ -39,19 +38,20 @@ span {
 }
 
 
-/* Table Styling */
+/* ================= Table Styling ================= */
 
 table {
-    border-collapse: collapse;
-    width: 60%;
+  border-collapse: collapse;
+  width: 60%;
+  margin-top: 20px;
 }
 
 table, th, td {
-    border: 1px solid black;
-    padding: 10px;
-    text-align: center;
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
 }
 
 th {
-    background-color: #ddd;
+  background-color: #ddd;
 }
