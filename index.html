@@ -2,13 +2,20 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Lab 03 - CSS Structure and Properties</title>
+<title>Lab 03</title>
 
 <!-- External CSS -->
 <link rel="stylesheet" href="style.css">
 
-</head>
+<style>
+  p > span { color: red; }
+  #header span { color: pink; }
+  span { color: green; }
+  #header *:last-child { color: orange; }
+  #header span:first-child:hover { color: blue; }
+</style>
 
+</head>
 <body>
 
 <h1>Lab 03</h1>
